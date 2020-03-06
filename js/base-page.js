@@ -6,7 +6,7 @@ $(document).ready(function(){
 })
 
 $(".card-btn").click(function(e){
-    var cardOpenClass = "fas fa-minus ml-auto"
+    var cardOpenClass = "fas fa-plus ml-auto"
     var cardClosedClass = "fas fa-plus ml-auto"
     var currentClass = $(this).find("i").attr("class")
     if (currentClass == cardOpenClass){
