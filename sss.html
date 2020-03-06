@@ -475,6 +475,21 @@
         </div>
       </footer>
     </div>
-    <script src="js/base-page.js"></script>
+    <script>
+
+  $(".card-btn").click(function(e){
+    console.log("cliked")
+    var cardOpenClass = "fas fa-plus ml-auto"
+    var cardClosedClass = "fas fa-minus ml-auto"
+    var currentClass = $(this).find("i").attr("class")
+    if (currentClass == cardOpenClass){
+        $(this).find("i").attr("class", cardClosedClass)
+    } else {
+        $(this).find("i").attr("class", cardOpenClass)
+    }
+});
+
+
+    </script>
   </body>
 </html>

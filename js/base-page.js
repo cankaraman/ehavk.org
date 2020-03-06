@@ -4,16 +4,3 @@ $(document).ready(function(){
     // tooltip init
     $('[data-toggle="tooltip"]').tooltip();
 })
-
-$(".card-btn").click(function(e){
-    var cardOpenClass = "fas fa-plus ml-auto"
-    var cardClosedClass = "fas fa-plus ml-auto"
-    var currentClass = $(this).find("i").attr("class")
-    if (currentClass == cardOpenClass){
-        $(this).find("i").attr("class", cardClosedClass)
-    } else {
-        $(this).find("i").attr("class", cardOpenClass)
-    }
-});
-
-
