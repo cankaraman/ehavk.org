@@ -37,3 +37,11 @@ footer {
 .bg-light-gray {
     background-color: #edeeee;
 }
+
+.announcement-item {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    border-bottom-style: dotted;
+
+}
